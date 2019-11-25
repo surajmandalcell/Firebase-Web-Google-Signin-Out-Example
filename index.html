@@ -33,6 +33,7 @@
       appId: "1:584332589366:web:2da1b14f1ea20e29a61b97",
       measurementId: "G-YCSYSL3DJQ"
     };
+    firebase.initializeApp(firebaseConfig);
     var provider = new firebase.auth.GoogleAuthProvider();
     provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
     
